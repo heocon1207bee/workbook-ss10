@@ -1,0 +1,30 @@
+header {
+    padding: 30px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(40, 40, 110);
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
+
+.logo {
+    font-size: 27px;
+}
+
+.option ul li a {
+    margin-left: 25px;
+}
+
+.option ul li {
+    list-style: none;
+}
+
+.active {
+    font-weight: bold;
+    color: red;
+}
